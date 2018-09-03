@@ -17,8 +17,4 @@ with_options if: :released? do |song|
      released
    end
 
-   def not_yet_released?
-     release_year <= 2018
-   end
-
 end
