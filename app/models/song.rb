@@ -16,7 +16,7 @@ validates :release_year, presence: true, if: :not_yet_released?
    end
 
    def not_yet_released?
-     release_year =< 2018
+     release_year <= 2018
    end
 
 end
